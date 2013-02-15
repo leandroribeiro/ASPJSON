@@ -1,4 +1,15 @@
 <%
+'##################################################################'
+''
+'Origem: http://code.google.com/p/aspjson/
+'Versão Origem' 0.1.1
+''
+'Alterado Por: Leandro Ribeiro
+'Alterado Em: 15/02/2013'
+'Alteração: Adicionado método "RSToJSON"
+''
+'##################################################################'
+
 Function QueryToJSON(dbc, sql)
         Dim rs, jsa
         Set rs = dbc.Execute(sql)
